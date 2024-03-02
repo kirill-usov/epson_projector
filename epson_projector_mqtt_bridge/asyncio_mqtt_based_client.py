@@ -1,7 +1,7 @@
 # region Imports
 import asyncio
 from contextlib import AsyncExitStack, asynccontextmanager
-from asyncio_mqtt import Client, MqttError
+from aiomqtt import Client, MqttError
 import json
 import logging
 import os
